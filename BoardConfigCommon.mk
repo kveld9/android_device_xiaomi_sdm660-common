@@ -45,6 +45,7 @@ BOARD_KERNEL_CMDLINE := \
     sched_enable_hmp=1 \
     sched_enable_power_aware=1 \
     service_locator.enable=1 \
+    subsystem_restart.disable_restart_work=0x9889deed \
     usbcore.autosuspend=7 \
     user_debug=31
 BOARD_KERNEL_BASE := 0x00000000
