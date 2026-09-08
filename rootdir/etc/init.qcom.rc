@@ -471,7 +471,7 @@ service loc_launcher /system/vendor/bin/loc_launcher
     group gps
 
 on property:persist.sys.xtra-daemon.enabled=*
-    restart vendor.loc_launcher
+    restart loc_launcher
 
 #on property:crypto.driver.load=1
 #     insmod /system/lib/modules/qce.ko
