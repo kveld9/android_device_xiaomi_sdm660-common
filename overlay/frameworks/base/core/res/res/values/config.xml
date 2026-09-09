@@ -168,6 +168,9 @@
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
 
+    <!-- Disable background blur effects to eliminate GPU fill-rate jank on Adreno 509 -->
+    <bool name="config_backgroundBlurSupported">false</bool>
+
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
          The default is false. -->
