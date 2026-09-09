@@ -193,6 +193,7 @@ vendor.usb.device=a800000.ssusb
 vendor.usb.rmnet.func.name=rmnet_bam
 vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=rndis_bam
+vendor.usb.use_ffs_mtp=1
 
 # Zygote
 zygote.critical_window.minute=10
